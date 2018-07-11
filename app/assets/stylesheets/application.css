@@ -1,15 +1,50 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+html {
+   font-family:sans-serif; 
+}
+
+
+.pomodoros {
+font-weight:bold;
+color: #A78CC9;
+background-color:#B8DBD3;
+border-radius : 50px;
+font-size:14px;
+padding:5px 8px 5px 8px;
+border:2px solid #000;
+margin:10px ;
+}
+.pomodoros:hover{
+    color:#000;
+}
+#add-new-todo-button {
+font-size:20px;
+text-align: center;
+color:#A78CC9;
+outline:none;
+border-style:none;
+padding:10px;
+border-radius:3px;
+box-shadow:2px 2px 1px;
+display:block;
+background-color: #B8DBD3;
+margin-top:10px;
+}
+
+#add-new-todo-button:active{
+    box-shadow:1px 1px 1px #90A4AE;
+}
+#add-new-todo-button:hover{
+    color:#000;
+}
+
+
+.pomodoros:hover{
+    color:#000;
+}
+.checkbox:active{
+    padding:10px;
+}
+
+.completed-todo{
+    text-decoration:line-through;
+}
